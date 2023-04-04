@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+body{
+    background-color: #dafaf8;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+}
+
+.row{
+    width: 20%;
+    background-color: #fff;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.imagen{
+    width: 85%;
+    border-radius: 10px;
+    margin: 15px 0 5px 0;
+    text-align: center;
+}
+
+h1,p{
+    padding: 1.5rem 20px 0 20px;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 17px;
+    color: rgb(52, 55, 94);
+}
+
+p{
+    font-size: 75%;
+    padding-bottom: 3rem;
+    color: rgb(145, 144, 144);
+}
